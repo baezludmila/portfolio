@@ -6,81 +6,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/about.css">
+    <script src="https://kit.fontawesome.com/d821231989.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <div class="navContainer">
-
+    <div class="container">
+        <!-- ######## Comienzo header ######## -->
         <header id="Navegador">
             <nav>
                 <ul class="ulNav">
                     <li class="itemsNav">
-                        <a href="#" class="navLink">HOLA</a>
+                        <a href="#about" class="navLink">ABOUT</a>
                     </li>
                     <li class="itemsNav">
-                        <a href="#" class="navLink">CONOCIMIENTOS</a>
+                        <a href="#skills" class="navLink">SKILLS</a>
                     </li>
                     <li class="itemsNav">
-                        <a href="#" class="navLink">PROYECTOS</a>
+                        <a href="#proyects" class="navLink">PROYECTS</a>
                     </li>
                     <li class="itemsNav">
-                        <a href="#" class="navLink">CONTACTO</a>
+                        <a href="#contact" class="navLink">CONTACT</a>
                     </li>
                 </ul>
             </nav>
         </header>
-
+        <!-- ######## Fin header ######## -->
         <main>
-
-            <section class="about-section">
+            <!-- ######## Comienzo sobre mí ######## -->
+            <section class="section about-section" id="about">
                 <div class="column about-main-content">
                     <div class="about-me">
-                        <p>¡Hola! Soy</p>
+                        <p>Hello! I'm</p>
                         <h1>Ludmila Baez</h1>
                         <p>Lorem ipsum dolor sit.</p>
-                        <a href="">LO QUE HAGO</a>
+                        <a href="#Proyects" class="button">WHAT I DO</a>
                     </div>
-                    <img class="rick" src="https://images.vexels.com/media/users/3/144097/isolated/preview/3dedcd235214cdde6b4e171fdbf66c9d-icono-de-coraz-oacute-n-by-vexels.png"
-                        width="200px" />
+                    <aside>
+                        <img class="image-about" src="./assets/Placeholder-amico.png" width="550px" height="500px" alt="about-me-photo">
+                    </aside>
                 </div>
             </section>
+            <!-- ######## Final sobre mí ######## -->
+            <!-- ######## Comienzo mis conocimientos ######## -->
+            <section class="section skills-section" id="skills">
+                <div class="column content">
+                    <h2 class="section-title">My skills</h2>
+                    <p class="section-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, modi sunt voluptatem deserunt atque at tenetur rem placeat nostrum, illo sint! Dolores blanditiis magni neque? Neque, dolores facere! Nihil, quia.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skills grid-item">
+                            <i class="fab fa-html5" id="icon html-icon"></i>
+                            <p>HTML 5</p>
+                        </div>
+                        <div class="skills grid-item">
+                            <i class="fab fa-css3-alt" id="icon css-icon"></i>
+                            <p>CSS 3</p>
+                        </div>
+                        <div class="skills grid-item">
+                            <i class="fab fa-sass" id="icon sass-icon"></i>
+                            <p>Sass</p>
+                        </div>
+                        <div class="skills grid-item">
+                            <i class="fab fa-js" id="icon js-icon"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skills grid-item">
+                            <i class="fab fa-react" id="icon react-icon"></i>
+                            <p>React</p>
+                        </div>
+                        <div class="skills grid-item">
+                            <i class="fab fa-git-alt" id="icon git-icon"></i>
+                            <p>GIT</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ######## Final mis conocimientos ######## -->
+            <!-- ######## Comienzo Someone ######## -->
+            <section class="section someone-section" id="someone">
+                <div class="column content">
+                    <blockquote>
+                        <i class="fas fa-quote-right"></i>
+                        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio est quod, dolore ut sed iusto blanditiis ab dignissimos dolores vel magni nisi. Perspiciatis non, eum qui eius voluptas fugiat repellat.
+                        </p>
+                        <h2 class="quote-by">Someone</h2>
+                    </blockquote>
+                </div>
+            </section>
+            <!-- ######## Comienzo mis proyectos ######## -->
+            <section class="section proyects-section" id="proyects">
+                <div class="column content">
+                    <h2 class="section-title">My proyects</h2>
+                    <p class="section-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, modi sunt voluptatem deserunt atque at tenetur rem placeat nostrum, illo sint! Dolores blanditiis magni neque? Neque, dolores facere! Nihil, quia.
+                    </p>
+                    <div class="proyects-grid">
+                        <div class="proyects grid-item">
+                            <a href="#" class="proyect" target="_blank">
+                                <img class="proyect-photo" src="./assets/Folder-amico.png" width="250px" height="200px" alt="portfolio">
+                                <h4>Portfolio</h4>
+                            </a>
+                        </div>
+                        <div class="proyects grid-item">
+                            <a href="#" class="proyect" target="_blank">
+                                <img class="proyect-photo" src="./assets/Click here-amico.png" width="250px" height="200px" alt="meme-generator">
+                                <h4>Meme generator</h4>
+                            </a>
+                        </div>
+                        <div class="proyects grid-item">
+                            <a href="#" class="proyect" target="_blank">
+                                <img class="proyect-photo" src="./assets/Select player-pana.png" width="250px" height="200px" alt="match-3">
+                                <h4>Match 3</h4>
+                            </a>
+                        </div>
+                        <div class="proyects grid-item">
+                            <a href="#" class="proyect" target="_blank">
+                                <img class="proyect-photo" src="./assets/Finance-amico.png" width="250px" height="200px" alt="cost-controller">
+                                <h4>Cost controller</h4>
+                            </a>
+                        </div>
+                        <div class="proyects grid-item">
+                            <a href="#" class="proyect" target="_blank">
+                                <img class="proyect-photo" src="./assets/Group video-amico.png" width="250px" height="200px" alt="meeting-administrator">
+                                <h4>Meeting administrator</h4>
+                            </a>
+                        </div>
+                        <div class="proyects grid-item">
+                            <a href="#" class="proyect" target="_blank">
+                                <img class="proyect-photo" src="./assets/Payment Information-amico.png" width="250px" height="200px" alt="all-app">
+                                <h4>All app</h4>
+                            </a>
+                        </div>
+                        <div class="proyects grid-item">
+                            <a href="#" class="proyect" target="_blank">
+                                <img class="proyect-photo" src="./assets/Movie Night-amico.png" width="250px" height="200px" alt="movie-searcher">
+                                <h4>Movie searcher</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-            <article id="AdaLovelace">
 
-            </article>
 
-            <article id="MisConocimientos">
+            </section>
+            <!-- ######## Final mis proyectos ######## -->
 
-            </article>
-
-            <article id="Someone">
-
-            </article>
-
-            <article id="MisProyectos">
-
-            </article>
-
-            <section>
-                <div id="Contacto">
+            <!-- ######## Comienzo mi contacto ######## -->
+            <section class="section contact-section" id="contact">
+                <div id="contact">
                     <div>
 
                     </div>
                 </div>
-                <div id="Escribime">
+                <div id="mail-me">
 
                 </div>
             </section>
-
+            <!-- ######## Final mi contacto ######## -->
         </main>
-
+        <!-- ######## Comienzo footer ######## -->
         <footer>
 
         </footer>
+        <!-- ######## Final footer ######## -->
     </div>
 </body>
 
