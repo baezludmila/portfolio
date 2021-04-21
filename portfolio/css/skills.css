@@ -1,0 +1,34 @@
+            .skills-section {
+                background-color: #F5F5F5;
+                padding: 10%;
+            }
+            
+            .section-skills-container {
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .skills-grid {
+                margin-top: 6%;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 0%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .grid-item {
+                width: 30%;
+                border: 1px;
+                box-shadow: 0 0 2px 0 #000000;
+                border-radius: 5px;
+                background-color: #FFFFFF;
+                padding: 3%;
+                margin: 1%;
+                text-align: center;
+            }
+            
+            .skills-icon {
+                font-size: 100px;
+            }

@@ -1,0 +1,19 @@
+    .someone-section {
+        background-color: #FF81AE;
+        padding: 10%;
+        text-align: center;
+    }
+    
+    .fa-quote-right {
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+    
+    .quote {
+        padding-top: 5%;
+        color: #FFFFFF;
+    }
+    
+    .quote-by {
+        color: #FFFFFF;
+    }

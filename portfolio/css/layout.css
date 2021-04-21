@@ -4,8 +4,10 @@
 }
 
 .container {
-    box-sizing: border-box;
-    display: block;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 body {
@@ -35,7 +37,10 @@ ul {
 }
 
 .column {
-    max-width: 1100px;
     width: 100%;
     box-sizing: border-box;
+}
+
+.title-and-description-container {
+    text-align: center;
 }

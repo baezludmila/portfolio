@@ -1,0 +1,49 @@
+    .contact-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    
+    .contact-section-container {
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: white;
+    }
+    
+    .contact-main-content {
+        width: 50%;
+        padding-right: 2%;
+    }
+    
+    .contact-social-nav {}
+    
+    .contact-social-item {
+        align-items: flex-start;
+        justify-content: left;
+    }
+    
+    .mail-main-content {
+        width: 50%;
+    }
+    
+    .social-link {
+        align-items: flex-start;
+        justify-content: left;
+    }
+    
+    .contact-me {
+        justify-content: left;
+        text-align: left;
+        align-items: flex-start;
+        display: flex;
+    }
+    
+    .contact-icon {}
