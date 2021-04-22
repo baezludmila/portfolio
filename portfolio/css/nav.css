@@ -36,22 +36,3 @@ header {
 .navLink:hover {
     color: #FBB1BD;
 }
-
-.nav-button {
-    background-color: #FF81AE;
-    border-radius: 20px;
-    width: 200px;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    color: #FFFFFF;
-    font-weight: 500;
-}
-
-.nav-button:hover {
-    background-color: #FBB1BD;
-    color: #ffff;
-    transition: 0.7s;
-}

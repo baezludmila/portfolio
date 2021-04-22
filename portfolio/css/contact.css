@@ -15,7 +15,9 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        background-color: white;
+        background-color: #FFFFFF;
+        border-radius: 100px;
+        border: transparent;
     }
     
     .contact-main-content {
@@ -40,6 +42,12 @@
     .social-link {
         align-items: flex-start;
         justify-content: left;
+        color: gray;
+    }
+    
+    .social-link:hover {
+        color: #FBB1BD;
+        transition: 0.3s;
     }
     
     .contact-me {
@@ -51,7 +59,7 @@
     
     .contact-icon {
         margin-right: 5%;
-        font-size: 150%;
+        font-size: 30px;
     }
     
     .input-form {
@@ -65,4 +73,25 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 5%;
+    }
+    
+    input {
+        border: transparent;
+        border-radius: 5px;
+        background-color: #F5F5F5;
+        height: 30px;
+        margin-top: 5%;
+        padding: 5%;
+        text-align: flex-start;
+    }
+    
+    textarea {
+        border: transparent;
+        border-radius: 5px;
+        background-color: #F5F5F5;
+    }
+    
+    label {
+        color: gray;
     }
