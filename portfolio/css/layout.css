@@ -44,3 +44,10 @@ ul {
 .title-and-description-container {
     text-align: center;
 }
+
+footer {
+    background-color: #fae0e43a;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

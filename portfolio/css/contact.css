@@ -4,7 +4,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-color: blueviolet;
+        background-color: #F5F5F5;
     }
     
     .contact-section-container {
@@ -23,11 +23,14 @@
         padding-right: 2%;
     }
     
-    .contact-social-nav {}
+    .contact-social-nav {
+        width: 100%;
+        padding: 0%;
+    }
     
     .contact-social-item {
         align-items: flex-start;
-        justify-content: left;
+        margin-bottom: 5%;
     }
     
     .mail-main-content {
@@ -46,4 +49,20 @@
         display: flex;
     }
     
-    .contact-icon {}
+    .contact-icon {
+        margin-right: 5%;
+        font-size: 150%;
+    }
+    
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    
+    .input-name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }

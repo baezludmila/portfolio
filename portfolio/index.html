@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/quote.css">
     <link rel="stylesheet" href="./css/proyects.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <script src="https://kit.fontawesome.com/d821231989.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://kit.fontawesome.com/d821231989.js" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
@@ -191,35 +193,35 @@
                         <div id="column mail-main-content">
                             <h2 class="section-title">Leave a comment</h2>
                             <form class="mail-me-form">
-                                <div class="input-name">
-                                    <div class="name-form">
+                                <div class="input-name-container">
+                                    <div class="input-form">
                                         <label for="firstname">Name *</label>
                                         <input type="text" name="Name *" id="firtsname" class="input-firtsname" placeholder="For example: Ludmila">
                                     </div>
-                                    <div class="surname-form">
+                                    <div class="input-form">
                                         <label for="surname">Surname *</label>
                                         <input type="text" name="Surname *" id="lastname" class="input-lastname" placeholder="For example: Baez">
                                     </div>
-                                    <div class="mail-form">
-                                        <label for="mail">E-mail *</label>
-                                        <input type="text" name="E-mail *" id="email" class="input-email" placeholder="For example: baezgludmila@gmail.com">
-                                    </div>
-                                    <div class="message-form">
-                                        <label for="message">Message *</label>
-                                        <input type="text" name="Message *" id="comment" class="input-comment">
-                                    </div>
-                                    <button type="submit" class="nav-button" id="submit-button">SEND</button>
+                                </div>
+                                <div class="input-form">
+                                    <label for="mail">E-mail *</label>
+                                    <input type="text" name="E-mail *" id="email" class="input-email" placeholder="For example: baezgludmila@gmail.com">
+                                </div>
+                                <div class="input-form">
+                                    <label for="message">Message *</label>
+                                    <textarea class="containerComentario" id="idComentarios" cols="50" rows="10" maxlength="1500" placeholder="Escriba un mensaje aqui" style="margin: 5.42188px 0px 0px; width: 269px; height: 115px;">                                </textarea>                                    </div>
+                                <button type="submit" class="nav-button" id="submit-button">SEND</button>
                             </form>
-                            </div>
+                        </div>
                     </aside>
-                    </div>
+                </div>
             </section>
             <!-- ######## Final mi contacto ######## -->
         </main>
         <!-- ######## Comienzo footer ######## -->
         <footer>
-            <div class="class=" nav-footer ">
-                <nav>
+            <div class="footer-container">
+                <nav class="nav-footer">
                     <ul class=" ulNav ">
                         <li class=" itemsNav ">
                             <a href=" #about " class=" navLink ">ABOUT</a>
@@ -235,32 +237,35 @@
                         </li>
                     </ul>
                 </nav>
+                <div class=" social-grid ">
+                    <div class=" social-grid-item ">
+                        <a href=" https://twitter.com/baezgludmi " class=" social-link " target=" _blank ">
+                            <i class=" fab fa-twitter "></i>
+                        </a>
+                    </div>
+                    <div class=" social-grid-item ">
+                        <a href=" https://github.com/baezludmila " class=" social-link " target=" _blank ">
+                            <i class=" fab fa-github-alt "></i>
+                        </a>
+                    </div>
+                    <div class=" social-grid-item ">
+                        <a href=" https://www.linkedin.com/in/baez-ludmila/ " class=" social-link " target=" _blank ">
+                            <i class=" fab fa-linkedin-in "></i>
+                        </a>
+                    </div>
+                    <div class=" social-grid-item ">
+                        <a href=" mailto:baezgludmila@gmail.com " class=" social-link " target=" _blank ">
+                            <i class=" far fa-envelope "></i>
+                        </a>
+                    </div>
+                </div>
+                <div class=" footer-ending ">
+                    <p class="ending-greeting ">Made with 💖 by Ludmi</p>
+                </div>
             </div>
-            <div class=" social-grid ">
-                <div class=" social-grid-item ">
-                    <a href=" https://twitter.com/baezgludmi " class=" social-link " target=" _blank ">
-                        <i class=" fab fa-twitter "></i>
-                    </a>
-                </div>
-                <div class=" social-grid-item ">
-                    <a href=" https://github.com/baezludmila " class=" social-link " target=" _blank ">
-                        <i class=" fab fa-github-alt "></i>
-                    </a>
-                </div>
-                <div class=" social-grid-item ">
-                    <a href=" https://www.linkedin.com/in/baez-ludmila/ " class=" social-link " target=" _blank ">
-                        <i class=" fab fa-linkedin-in "></i>
-                    </a>
-                </div>
-                <div class=" social-grid-item ">
-                    <a href=" mailto:baezgludmila@gmail.com " class=" social-link " target=" _blank ">
-                        <i class=" far fa-envelope "></i>
-                    </a>
-                </div>
-            </div>
-            <div class=" footer-ending ">Made with 💖 by Ludmi</div>
         </footer>
-    <!-- ######## Final footer ######## -->
+
+        <!-- ######## Final footer ######## -->
     </div>
 </body>
 

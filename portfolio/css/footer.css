@@ -1,0 +1,37 @@
+.social-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.social-grid-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.footer-ending {
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.footer-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ending-greeting {}
